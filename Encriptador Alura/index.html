@@ -1,13 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador de texto</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="/img/favicon.png" type="image/x-icon">
+    <link rel="icon" href="/Encriptador Alura/img/favicon.png" type="image/x-icon">
 </head>
 <body>
-   
+   <header>
+    <a href="#" rel="">
+        <img src="/Encriptador Alura/img/Logo.png" alt="Logo de Alura" class="logo">
+    </a>
+   </header>
+   <main>
+    <section class="encriptador">
+      <textarea class="encriptar" id="" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+      <div class="encriptadorAviso">
+        <img src="/Encriptador Alura/img/aviso.png" alt="Imagen de aviso" class="ImgAviso">
+        <p class="textoDeAviso">Solo letras minúsculas y sin acentos</p>
+      </div>
+      <div class="encriptadorContenedor">
+        <button type="submit" class="btn-encriptar">Encriptar</button>
+        <button type="submit" class="btn-desencriptar">Desencriptar</button>
+      </div>
+    </section>
+    <section class="tarjeta">
+      <div class="tarjetaContenedor">
+        <img src="/Encriptador Alura/img/Muñeco.png" alt="Muñeco" class="muñeco">
+        <p class="primerTexto">Ningún mensaje fue encontrado</p>
+        <p class="secundoTexto">Ingrese el texto que desea encriptar o desencriptar</p>
+      </div>
+      <textarea type="mensaje" class="evaluar" cols="30" rows="10" readonly></textarea>
+      <button type="submit" class="btn-copiar">Copiar</button>
+    </section>
+   </main>
+   <footer>
+    <p class="copyrigth">&copy; Copyrigth 2024 - Desarrollado por OHDev</p>
+    <a href="#" target="_blank" rel="">
+      <img src="/Encriptador Alura/img/linkedin.svg" alt="Logo Linkedin" class="linkeind">
+      <img src="/Encriptador Alura/img/OIP.jfif" alt="Logo GitHub" class="github">
+    </a>
+   </footer>
 </body>
 </html>
