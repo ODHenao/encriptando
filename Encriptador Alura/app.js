@@ -109,4 +109,4 @@ btnDesncriptar.addEventListener("click, e=>"{
     btnCopiar.style.visibility ="inherit";
     contenido.remove();
   }
-});  
+})
