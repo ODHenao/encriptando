@@ -22,7 +22,7 @@ btnEncriptar.addEventListener("click", e=>{
 
     },1500);
   }
-  else if(texto !== txt){
+    else if(texto !== txt){
     // aviso.style.background = "#0A3871";
     // aviso.style.color = #FFFFFF;
     // aviso.style.fontWeight = "800";
@@ -33,7 +33,7 @@ btnEncriptar.addEventListener("click", e=>{
 
     },1500);
   }
-  else if(texto !== texto.tolowerCase()){
+    else if(texto !== texto.tolowerCase()){
     // aviso.style.background = "#0A3871";
     // aviso.style.color = #FFFFFF;
     // aviso.style.fontWeight = "800";
